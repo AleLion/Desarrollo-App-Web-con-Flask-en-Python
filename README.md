@@ -10,31 +10,39 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 1. Configurar la instancia EC2 con Amazon Linux, crear clave.pem, configurando el cortafuegos y seguridad para proteger la aplicación, abriendo solamente los puertos necesarios, en este caso el puerto 5000.
 
 2. Crear el entorno (IDE) Cloud9, configurar las herramientas de desarrollo en la instancia e instalar Python, Git y despliega.
+   
 
 **Abrimos el entorno Cloud9 :**
-- [x] Para dar permisos a la clave.pem y asociar la EC2 con el Cloud9, ejecutamos el comando:
 
-     :shipit: chmod 600 clave.pem
 
-     :shipit: ssh -i clave.pem ec2-user@IP_pública_EC2
+:shipit: Para dar permisos a la clave.pem y asociar la EC2 con el Cloud9, ejecutamos el comando:
 
-- [x] Para actualizar las librerías, ejecutamos el comando:
+     chmod 600 clave.pem
 
-     :dizzy: sudo yum update
+     ssh -i clave.pem ec2-user@IP_pública_EC2
 
-- [x] Para instalar Python3 y comprobar la versión del mismo, ejecutamos los comandos:
+:shipit: Para actualizar las librerías, ejecutamos el comando:
 
-     :snake: sudo yum install python3
+     sudo yum update
 
-     :snake: python3 –-version
 
-- [x] Para instalar pip, ejecutamos el comando:
+:snake: Para instalar Python3 y comprobar la versión del mismo, ejecutamos los comandos:
 
-     :baby_chick: sudo yum install python3-pip (este software permite instalar el Flask)
+     sudo yum install python3
 
-- [x] Para instalar Flask, ejecutamos el comando:
+     python3 –-version
 
-     :cyclone: pip install Flask (este software permite desarrollar y desplegar la aplicación)
+:baby_chick: Para instalar pip, ejecutamos el comando:
+
+     sudo yum install python3-pip
+
+ *Este software permite instalar el Flask*
+
+:cyclone: Para instalar Flask, ejecutamos el comando:
+
+      pip install Flask     
+      
+*Este software permite desarrollar y desplegar la aplicación*
 
 > <h1 align="center"> Desarrollo de la Aplicación Web </h1>
 
