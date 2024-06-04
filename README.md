@@ -23,5 +23,8 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 
      :dizzy: sudo yum update
 
-- [x] Para actualizar las librerías, ejecutamos el comando:
+- [x] Para instalar Python3 y comprobar la versión del mismo, ejecutamos los comandos:
+
+     :snake: sudo yum install python3
+     :snake: python3 –-version
 
