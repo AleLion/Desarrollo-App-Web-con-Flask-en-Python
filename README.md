@@ -56,6 +56,7 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 
 >> Vamos a la EC2, copiamos la IP pública, abrimos el navegador y pegamos la IP_pública:5000
 
-:sunflower: En este punto, la aplicación web ya está desplegada y funciona.:sunflower:
+:sunflower: ...En este punto, la aplicación web ya está desplegada y funciona...:sunflower:
+
 
 
