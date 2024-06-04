@@ -1,6 +1,6 @@
 <h1 align="center"> Exámen Final Módulo 2 </h1>
 
-Este proyecto permite crear una aplicación web simple, ligera, flexible para Python, en la que puede comparar dos textos de forma rápida y sencilla, insertando parámetrtos iguales en donde el resultado es mismos textos, también tiene el botón que permite rergresar al inicio del formulario e ingresar parámetros diferentes, y el resultado es textos diferentes. Puede realizarlo cuantas veces lo desee.
+Este proyecto permite crear una aplicación web simple, ligera, flexible para Python, en la que puede comparar dos textos de forma rápida y sencilla, insertando parámetrtos iguales en donde el resultado es mismos textos, también tiene el botón que permite regresar al inicio del formulario e ingresar parámetros diferentes, y el resultado es textos diferentes. Puede realizarlo cuantas veces lo desee. Adicional, cuenta con test de pruebas para verificar el funcionamiento correcto de la aplicación.
 
 
 > <h1 align="center"> Requisitos Técnicos </h1>
@@ -30,11 +30,11 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 
 - [x] Para instalar pip, ejecutamos el comando:
 
-     :baby_chick: sudo yum install python3-pip
+     :baby_chick: sudo yum install python3-pip (este software permite instalar el Flask)
 
 - [x] Para instalar Flask, ejecutamos el comando:
 
-     :cyclone: pip install Flask
+     :cyclone: pip install Flask (este software permite desarrollar y desplegar la aplicación)
 
 > <h1 align="center"> Desarrollo de la Aplicación Web </h1>
 
@@ -48,5 +48,6 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 
 >> Vamos a la EC2, copiamos la IP pública, abrimos el navegador y pegamos la IP_pública:5000
 
+:sunflower: En este punto, la aplicación web ya está desplegada y funciona.:sunflower:
 
 
