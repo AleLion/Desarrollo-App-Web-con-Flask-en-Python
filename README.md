@@ -48,15 +48,15 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 
 **Continuamos en el entorno Cloud9 :**
 
->> Ejecutamos el comando nano app.py ... pegamos el código.
+>> :zap: Ejecutamos el comando nano app.py ... pegamos el código.
 
->>Ejecutamos el comando nano test.py ... pegamos el código. *Este permite realizar pruebas automatizadas*
+>> :zap: Ejecutamos el comando nano test.py ... pegamos el código. *Este permite realizar pruebas automatizadas*
 
->> Creamos el directorio **templates**, ingresamos, creamos los ficheros form.html y result.html.
+>> :zap: Creamos el directorio **templates**, ingresamos, creamos los ficheros form.html y result.html.
 
->> Ejecutamos el comando python3 app.py.    *Permite desplegar la aplicación.*
+>> :zap: Ejecutamos el comando python3 app.py.    *Permite desplegar la aplicación.*
 
->> Vamos a la EC2, copiamos la IP pública, abrimos el navegador y pegamos la IP_pública:5000
+>> :zap: Vamos a la EC2, copiamos la IP pública, abrimos el navegador y pegamos la IP_pública:5000
 
 :sunflower: ...En este punto, la aplicación web ya está desplegada y funciona...:sunflower:
 
