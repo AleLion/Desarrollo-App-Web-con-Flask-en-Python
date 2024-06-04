@@ -7,6 +7,10 @@ Este proyecto permite crear una aplicación web simple, ligera, flexible para Py
 En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 
 1. Configurar la instancia EC2 con Amazon Linux, crear clave.pem, configurando el cortafuegos y seguridad para proteger la aplicación, abriendo solamente los puertos necesarios, en este caso el puerto 5000.
-2. Crear el entorno Cloud9 e instalar y configurar las herramientas de desarrollo 
+
+2. Crear el entorno (IDE) Cloud9, configurar las herramientas de desarrollo en la instancia e instalar Python, Git y despliega.
+
+> <h1 align="center"> Desarrollo de la Aplicación Web </h1>
+
 
 
