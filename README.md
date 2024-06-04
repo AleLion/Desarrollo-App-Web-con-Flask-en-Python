@@ -13,9 +13,15 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 > <h1 align="center"> Desarrollo de la Aplicación Web </h1>
 
 **Abrimos el entorno Cloud9 :**
-- [x] Para permisos a la clave.pem y asociar la EC2 con el Cloud9, ejecutamos el comando:
+- [x] Para dar permisos a la clave.pem y asociar la EC2 con el Cloud9, ejecutamos el comando:
 
-chmod 600 calve.pem
-ssh -i clave.pem ec2-user@IP_pública_EC2
+     :shipit: chmod 600 calve.pem
 
+     :shipit: ssh -i clave.pem ec2-user@IP_pública_EC2
+
+- [x] Para actualizar las librerías, ejecutamos el comando:
+
+     :dizzy: sudo yum update
+
+- [x] Para actualizar las librerías, ejecutamos el comando:
 
