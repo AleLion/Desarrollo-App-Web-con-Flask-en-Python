@@ -26,5 +26,13 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 - [x] Para instalar Python3 y comprobar la versión del mismo, ejecutamos los comandos:
 
      :snake: sudo yum install python3
+
      :snake: python3 –-version
 
+- [x] Para instalar pip, ejecutamos el comando:
+
+     :baby_chick: sudo yum install python3-pip
+
+- [x] Para instalar Flask, ejecutamos el comando:
+
+     :cyclone: pip install Flask
