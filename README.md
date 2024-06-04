@@ -50,9 +50,11 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 
 >> Ejecutamos el comando nano app.py ... pegamos el código.
 
+>>Ejecutamos el comando nano test.py ... pegamos el código. *Este permite realizar pruebas automatizadas*
+
 >> Creamos el directorio **templates**, ingresamos, creamos los ficheros form.html y result.html.
 
->> Ejecutamos el comando python3 app.py.
+>> Ejecutamos el comando python3 app.py.    *Permite desplegar la aplicación.*
 
 >> Vamos a la EC2, copiamos la IP pública, abrimos el navegador y pegamos la IP_pública:5000
 
