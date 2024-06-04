@@ -10,12 +10,10 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 
 2. Crear el entorno (IDE) Cloud9, configurar las herramientas de desarrollo en la instancia e instalar Python, Git y despliega.
 
-> <h1 align="center"> Desarrollo de la Aplicación Web </h1>
-
 **Abrimos el entorno Cloud9 :**
 - [x] Para dar permisos a la clave.pem y asociar la EC2 con el Cloud9, ejecutamos el comando:
 
-     :shipit: chmod 600 calve.pem
+     :shipit: chmod 600 clave.pem
 
      :shipit: ssh -i clave.pem ec2-user@IP_pública_EC2
 
@@ -36,3 +34,9 @@ En éste caso la aplicación fue desarrollada en la plataforma de AWS, entonces:
 - [x] Para instalar Flask, ejecutamos el comando:
 
      :cyclone: pip install Flask
+
+> <h1 align="center"> Desarrollo de la Aplicación Web </h1>
+
+
+
+
